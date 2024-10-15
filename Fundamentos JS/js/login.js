@@ -38,7 +38,7 @@ const submitButton = loginForm.querySelector('button[type="submit"]');
 window.onload = function () {
   let usernameCookie = getCookie("username");
   if (usernameCookie !== "") {
-    window.location.href = "./ejercicios/index.html";
+    window.location.href = "./inicio/index.html";
   }
 };
 
@@ -71,7 +71,7 @@ submitButton.addEventListener("click", function (event) {
 
    // Esperar 2 segundos antes de mostrar el contenido principal
    setTimeout(function () {
-    window.location.href = "./ejercicios/index.html"; 
+    window.location.href = "./inicio/index.html"; 
   }, 2000); // 2000 milisegundos = 2 segundos
   
   } else {

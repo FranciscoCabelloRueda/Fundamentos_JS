@@ -17,7 +17,7 @@
       <img src="img/FOTO.jpeg" width="125" height="125" align="left">
       <h3 style="margin-right: 125px;">FUNDAMENTOS DE JS (ES6)</h3>
       <h4 style="margin-right: 125px;">Desarrollo Web en Entorno Cliente</h4>
-      <h5 style="margin-right: 125px;">Login con Cookies</h5>
+      <h5 style="margin-right: 125px;">Number</h5>
     </div>
     <!-- ---------MENU----------- -->
     <div class="topnav">
@@ -32,16 +32,26 @@
     <!-- ------MAIN-CONTENT------ -->
     <div class="container">
       <div class="card">
-          <div class="cardTitle">Funcion Refactorización 01</div>
+          <div class="cardTitle">MiniCalculadora</div>
           <div class="cardBody">
-              <input id="boton" type="button" value="Pulsame">
-              </br>
-              <p id="resultado" name="ejercicio 01">(Aqui se mostrará el resultado)</p>
+            <h3>Operaciones:</h3>
+            <p>Primer número:</p>
+            <input type="text" id="num1"><br><br>
+            <p>Segundo número:</p>
+            <input type="text" id="num2"><br><br>
+            <button onclick="sumar()">+</button>
+            <button onclick="restar()">-</button>
+            <button onclick="multiplicar()">*</button>
+            <button onclick="dividir()">/</button>
+            <button onclick="entero()">Valor Entero</button>
+            <button onclick="decimal()">Parte Decimal</button>
+            <button onclick="factorial()">!</button>
+            
+            <h3>Resultado: <span id="resultado">0</span></h3>
           </div>
           <div class="cardFooter"><a href="../../index.html">Volver a la Página Principal</a></div>
       </div>
   </div>
-  <br/><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <!-- ---------FOOT----------- -->
     <div class="footer">
   © Francisco Javier Cabello Rueda

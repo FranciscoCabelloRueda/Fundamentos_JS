@@ -17,7 +17,7 @@
       <img src="img/FOTO.jpeg" width="125" height="125" align="left">
       <h3 style="margin-right: 125px;">FUNDAMENTOS DE JS (ES6)</h3>
       <h4 style="margin-right: 125px;">Desarrollo Web en Entorno Cliente</h4>
-      <h5 style="margin-right: 125px;">Login con Cookies</h5>
+      <h5 style="margin-right: 125px;">Number</h5>
     </div>
     <!-- ---------MENU----------- -->
     <div class="topnav">
@@ -27,23 +27,29 @@
       <a href="https://github.com/FranciscoCabelloRueda/Fundamentos_JS">Github</a>
       <button id="logoutButton">Cerrar Sesión</button>
     </div>
+    
     <br/>
     <!-- ------MAIN-CONTENT------ -->
     <div class="container">
       <div class="card">
-          <div class="cardTitle">Funcion Refactorización 02</div>
+          <div class="cardTitle">Conversor</div>
           <div class="cardBody">
-              <input id="boton" type="button" value="Pulsame">
-              </br>
-              <p id="resultado" name="ejercicio 02">(Aqui se mostrará el resultado)</p>
+            <div class="converter">
+              <input type="number" id="number" placeholder="Ingrese un número">   
+              <button onclick="convert()">Convertir</button>
+              <div class="results">
+                <p>Binario: <span id="binaryResult">-</span></p>
+                <p>Octal: <span id="octalResult">-</span></p>
+                <p>Hexadecimal: <span id="hexResult">-</span></p>
+              </div>
+            </div>
           </div>
           <div class="cardFooter"><a href="../../index.html">Volver a la Página Principal</a></div>
       </div>
   </div>
-  <br/><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <!-- ---------FOOT----------- -->
     <div class="footer">
   © Francisco Javier Cabello Rueda
-    </div>
+    </div>  
   </body>
 </html>

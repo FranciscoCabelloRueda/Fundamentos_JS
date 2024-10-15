@@ -32,18 +32,19 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .topnav a:hover {
-  background-color: rgb(128, 128, 128, 0.25);
-  color: rgb(255, 215, 0, 0.75);
+  background-color:  rgb(108, 66, 33);
+  color: rgb(252, 153, 83);
 }
 
 .topnav button:hover {
   border: none;
   outline: none;
-  background-color: rgb(128,128,128,0.25);
-  color: rgb(255,215,0,0.75);
+  background-color:  rgb(108, 66, 33);
+  color: rgb(252, 153, 83);
 }
 
 .topnav button {
@@ -53,12 +54,12 @@ body {
   outline: none;
   overflow: hidden;
   background-color: rgb(191, 115, 61);
-  opacity: 0.9;
   color: rgb(255,250,250,0.90);
   text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 /* MAIN-CONTENT */

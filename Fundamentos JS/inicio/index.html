@@ -7,10 +7,9 @@
     <title>Javascript</title>
     <link href="./img/favicon.ico" rel="icon" type="image/x-icon">
     <link href="./css/styles.css" rel="stylesheet" type="text/css" />
-    <script defer src="./js/login.js"></script>
-    <script defer src="./js/eraseCookie.js"></script>
-    <script defer src="./js/setCookie.js"></script>
-    <script defer src="./js/getCookie.js"></script>
+    <script defer src="./js/loadExercise.js"></script>
+    <script defer src="./js/script.js"></script>
+    <script defer src="../js/eraseCookie.js"></script>
   </head>
   <body>
     <!-- --------HEADER---------- -->
@@ -26,30 +25,27 @@
       <a href="https://es.javascript.info/js">javascript.info</a>
       <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN</a>
       <a href="https://github.com/FranciscoCabelloRueda/Fundamentos_JS">Github</a>
+      <div class="dropdown">
+        <button class="dropbtn">DOM</button>
+        <div class="dropdown-content">
+          <a href="#" id="ejer01">Ejercicio 01</a>
+          <a href="#" id="ejer02">Ejercicio 02</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Number</button>
+        <div class="dropdown-content">
+          <a href="./Number/MiniCalculadora/index.html" >MiniCalculadora</a>
+          <a href="./Number/Conversor/index.html" >Conversor</a>
+        </div>
+      </div>
+      <button id="logoutButton">Cerrar Sesión</button>
     </div>
     <br/>
-    <!-- ------MAIN-CONTENT (LOGIN AND TEXT)------ -->
+    <!-- ------MAIN-CONTENT------ -->
     <div class="container">
-    <!-- ------LOGIN------ -->
-      <div class="login-form">
-        <h2>Inicio de Sesión</h2>
-        <form id="loginForm">
-          <div class="form-group">
-            <label for="username">Nombre:</label>
-            <input type="text" id="username" name="username" placeholder="Fran" required>
-          </div>
-          <div class="form-group">
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" name="password" placeholder="123456" required>
-          </div>
-          <button type="submit">Iniciar Sesión</button>
-        </form>
-        <p id="loginMessage"></p>
-      </div>
-      <!--TEXT-->
-      <div id="mainContent" style="display: none;">
-        <div class="container">
-        </div>
+      <div id="mainContent">
+        <p align="center">Selecciona una opción del menú para ver los ejercicios.</p>
       </div>
     </div>
     <br/>

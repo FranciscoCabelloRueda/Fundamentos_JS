@@ -1,4 +1,4 @@
- body {
+body {
   background: url(../img/bgblanco.png) repeat;
   text-align: justify;
   font-family: Tahoma, Geneva, sans-serif;
@@ -40,58 +40,71 @@
   color: rgb(252, 153, 83);
 }
 
-/* LOGIN */
-
-.login-form {
-  width: 300px;
-  margin: 50px auto;
-  padding: 30px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #f9f9f9;
-}
-
-.login-form h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  text-align: center;
-  color: #333;
-}
-
-.loginMessage {
-  margin-top: 10px;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-.form-group label {
-  font-weight: bold;
-  color: #333;
-}
-
-.form-group input {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-button[type="submit"] {
-  width: 100%;
-  padding: 10px;
+.topnav button:hover {
   border: none;
-  border-radius: 5px;
-  background-color: rgb(82, 49, 24);
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.5s ease;
+  outline: none;
+  background-color:  rgb(108, 66, 33);
+  color: rgb(252, 153, 83);
 }
 
-button[type="submit"]:hover {
-  background-color: rgb(108, 66, 33);
+.topnav button {
+  float: right;
+  display: block;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  background-color: rgb(191, 115, 61);
+  color: rgb(255,250,250,0.90);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* MAIN-CONTENT */
+
+.container {
+
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  width: auto;
+  border: 1px solid rgb(211, 211, 211, 0.5);
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 15px;
+  font-family: sans-serif;
+}
+
+.cardTitle {
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+}
+
+.cardBody {
+  padding: 10px;
+  flex: 1 1 100%;
+}
+
+.cardFooter {
+  background: rgb(108, 66, 33);
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+  text-align: center;
+}
+  
+.cardFooter a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.25);
+}
+  
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
 }
 
 /* FOOTER */
@@ -107,4 +120,4 @@ button[type="submit"]:hover {
   width: 100%; 
   left: 0; 
   right: 0;
-} 
+}
