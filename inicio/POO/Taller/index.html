@@ -9,7 +9,7 @@
     <link href="./img/favicon.ico" rel="icon" type="image/x- icon">
     <link href="./css/styles.css" rel="stylesheet" type="text/css" />
     <script defer src="../js/funciones.js" type="text/javascript"></script>
-    <script defer src="./js/script.js" type="text/javascript"></script>
+    <script defer type="module" src="./main.js"></script>
   </head>
   <body>
     <!-- --------HEADER---------- -->
@@ -27,28 +27,22 @@
       <a href="https://es.javascript.info/js">javascript.info</a>
       <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN</a>
       <a href="https://github.com/FranciscoCabelloRueda/Fundamentos_JS">Github</a>
-      <button id="logoutButton">Cerrar Sesión</button>
+      <button class="logoutButton">Cerrar Sesión</button>
     </div>
-    
-    <br/>
+    <br />
     <!-- ------MAIN-CONTENT------ -->
     <div class="container">
       <div class="card">
-          <div class="cardTitle">Conversor</div>
-          <div class="cardBody">
-            <div class="converter">
-              <input type="number" id="number" placeholder="Ingrese un número">   
-              <button onclick="convert()">Convertir</button>
-              <div class="results">
-                <p>Binario: <span id="binaryResult">-</span></p>
-                <p>Octal: <span id="octalResult">-</span></p>
-                <p>Hexadecimal: <span id="hexResult">-</span></p>
-              </div>
-            </div>
-          </div>
-          <div class="cardFooter"><a href="../../index.html">Volver a la Página Principal</a></div>
+        <div class="cardTitle">TALLER</div>
+        <div class="cardBody">
+          <button id="añadirCoche">Añadir coche</button>
+          <button id="atenderCoche">Reparar coche</button>
+          <div id="mensajeOutput" class="mensaje"></div>
+          <div id="colaOutput"></div>
+        </div>
+        <div class="cardFooter"><a href="../../index.html">Volver a la Página Principal</a></div>
       </div>
-  </div>
+    </div>
   <!-- ---------FOOT----------- -->
     <div class="footer">
   © Francisco Javier Cabello Rueda

@@ -45,4 +45,15 @@ document.getElementById("LocalStorage").addEventListener("click", function () {
   loadExercise('LocalStorage');
 });
 
+document.getElementById("Colada").addEventListener("click", function () {
+  loadExercise('Colada');
+});
+
+document.getElementById("Taller").addEventListener("click", function () {
+  loadExercise('Taller');
+});
+
+document.getElementById("Tareas").addEventListener("click", function () {
+  loadExercise('Tareas');
+});
 

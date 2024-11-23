@@ -1,0 +1,202 @@
+body {
+  background: url(../img/bgblanco.png) repeat;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(108, 66, 33);
+  opacity: 0.9;
+  padding: 7px;
+  color: rgb(255,250,250,0.90);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+}
+
+.foto {
+  width: 125px;
+  height: 125px;
+  margin-right: 30px;
+  border: 5px solid rgb(191, 115, 61);
+  transition: transform 0.3s ease; 
+}
+
+.foto:hover {
+  transform: scale(1.1); 
+}
+
+.title {
+  text-align: left;
+}
+
+.title h3 {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: rgb(255,250,250,0.90);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+}
+
+.title h4 {
+  margin: 5px 0;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: rgb(255,250,250,0.90);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+}
+
+.title h5 {
+  margin: 0;
+  font-size: 1.2em;
+  color: rgb(255,250,250,0.90);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+}
+
+/* MENU */
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(191, 115, 61);
+  opacity: 0.9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(255,250,250,0.90);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.topnav a:hover {
+  background-color:  rgb(108, 66, 33);
+  color: rgb(252, 153, 83);
+}
+
+.topnav button:hover {
+  border: none;
+  outline: none;
+  background-color:  rgb(197, 50, 50);
+  color: rgb(255,250,250,0.90);
+}
+
+.topnav button {
+  float: right;
+  display: block;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  background-color: rgb(252, 83, 83);
+  color: rgb(255,250,250,0.90);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+/* MAIN-CONTENT */
+
+.container {
+
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  width: auto;
+  border: 1px solid rgb(211, 211, 211, 0.5);
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 15px;
+  font-family: sans-serif;
+}
+
+.cardTitle {
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+}
+
+.cardBody {
+  padding: 10px;
+  flex: 1 1 100%;
+}
+
+.cardFooter {
+  background: rgb(108, 66, 33);
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+  text-align: center;
+}
+  
+.cardFooter a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.25);
+}
+
+.tarea {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid rgb(108, 66, 33);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(108, 66, 33);
+  display: block;
+  align-items: center;
+  font-size: 1.2em;
+  word-wrap: break-word;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.mensaje {
+  color: rgb(108, 66, 33);
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid rgb(108, 66, 33);
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  color: rgb(108, 66, 33);
+}
+
+th {
+  background-color: rgb(255, 255, 255);
+}
+
+td {
+  background-color: rgb(255, 255, 255);
+}
+
+/* FOOTER */
+
+.footer {
+  background:  rgb(191, 115, 61);
+  text-align: center;
+  padding: 20px;
+  color: rgb(255, 250, 250, 0.90);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.75);
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+  left: 0; 
+  right: 0;
+}

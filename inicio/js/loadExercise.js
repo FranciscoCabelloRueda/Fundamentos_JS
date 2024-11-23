@@ -166,6 +166,60 @@ function loadExercise(exercise) {
           </div>
         </div>`
         break;
+    case 'Colada':
+      mainContent.innerHTML = `
+        <div id="mainContent">
+          <div class="container">
+            <div class="card">
+              <div class="cardTitle">
+                <p align="center">Colada</p>
+              </div>
+              <div class="cardBody">
+                <p align="center">Gestion de la colada con una Pila</p>
+              </div>
+              <div class="cardFooter">
+                <a href="./POO/Colada/index.html">&gt;&gt; Colada</a>
+              </div>
+            </div>
+          </div>
+        </div>`
+        break;
+    case 'Taller':
+      mainContent.innerHTML = `
+        <div id="mainContent">
+          <div class="container">
+            <div class="card">
+              <div class="cardTitle">
+                <p align="center">Taller</p>
+              </div>
+              <div class="cardBody">
+                <p align="center">Gestion de la lista de reparaciones en el Taller con una Cola</p>
+              </div>
+              <div class="cardFooter">
+                <a href="./POO/Taller/index.html">&gt;&gt; Taller</a>
+              </div>
+            </div>
+          </div>
+        </div>`
+        break;
+    case 'Tareas':
+      mainContent.innerHTML = `
+        <div id="mainContent">
+          <div class="container">
+            <div class="card">
+              <div class="cardTitle">
+                <p align="center">Tareas</p>
+              </div>
+              <div class="cardBody">
+                <p align="center">Gestión de Tareas con una Lista</p>
+              </div>
+              <div class="cardFooter">
+                <a href="./POO/Tareas/index.html">&gt;&gt; Tareas</a>
+              </div>
+            </div>
+          </div>
+        </div>`
+        break;
     default:
         break;    
   }

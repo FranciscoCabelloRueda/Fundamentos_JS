@@ -9,7 +9,7 @@
     <link href="./img/favicon.ico" rel="icon" type="image/x- icon">
     <link href="./css/styles.css" rel="stylesheet" type="text/css" />
     <script defer src="../js/funciones.js" type="text/javascript"></script>
-    <script defer src="./js/script.js" type="text/javascript"></script>
+    <script defer type="module" src="./main.js"></script>
   </head>
   <body>
     <!-- --------HEADER---------- -->
@@ -34,18 +34,13 @@
     <!-- ------MAIN-CONTENT------ -->
     <div class="container">
       <div class="card">
-          <div class="cardTitle">Conversor</div>
-          <div class="cardBody">
-            <div class="converter">
-              <input type="number" id="number" placeholder="Ingrese un número">   
-              <button onclick="convert()">Convertir</button>
-              <div class="results">
-                <p>Binario: <span id="binaryResult">-</span></p>
-                <p>Octal: <span id="octalResult">-</span></p>
-                <p>Hexadecimal: <span id="hexResult">-</span></p>
-              </div>
-            </div>
-          </div>
+        <div class="cardTitle">COLADA</div>
+        <div class="cardBody">
+            <button id="añadirPrenda">Introducir prenda</button>
+            <button id="obtenerPrenda">Limpiar prenda</button>
+            <div id="mensajeOutput" class="mensaje"></div>
+            <div id="cestaOutput"></div>
+        </div>
           <div class="cardFooter"><a href="../../index.html">Volver a la Página Principal</a></div>
       </div>
   </div>

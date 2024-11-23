@@ -59,6 +59,13 @@ Esta carpeta incluye ejercicios prácticos para entender los fundamentos de Java
   - Almacenamiento de datos con LoginStorage
   - API para introducir texto implementada
 
+#### **f. POO (Programación Orientada a Objetos)**
+- Enseña cómo gestionar datos con Pilas, Colas y Listas en POO.
+- Ejercicios incluidos:
+  - Gestión de la colada con pila
+  - Gestión de un taller con cola
+  - Gestión de tareas con lista
+
 ## Requisitos para Ejecución
 
 1. Un navegador web actualizado.
